@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="signup.css">
+    <title>OverLay Signup</title>
+</head>
+<body>
+    <div id="MyOverlay" class="overlay">
+        <span class="closebtn" onclick="closeForm()" title="close overlay"> &#215</span>
+        <div class="wrap">
+            <h2>Sign Up as a partner</h2>
+            <form action=" "> 
+                <input type="text" placeholder="Company Name">
+
+                <input type="text" placeholder="Nature of Business">
+
+                <input type="text" placeholder="Company Address">
+
+                <input type="text" placeholder="Business Phone Number">
+
+                <input type="text" placeholder="Email Address">
+
+                <input type="text" placeholder="Password">
+
+                <input type="text" placeholder="Confirm Password">
+
+                <input type="text" placeholder="Referral Code (Optional)">
+
+                <input type="submit" value="Sign Up">    
+            </form>
+        </div>
+    </div>
+
+    <button class="openbtn" onclick="openForm()">Click here to Sign Up</button>
+
+    <script>
+        function openForm(){
+            document.getElementById("MyOverlay"). style.display ="block";
+        }
+
+        function closeForm(){
+            document.getElementById("MyOverlay"). style.display ="none";
+        }
+    </script>
+</body>
+</html>

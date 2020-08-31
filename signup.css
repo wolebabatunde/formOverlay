@@ -1,0 +1,93 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+
+body {
+    background: url(img/1.jpg) no-repeat ;
+    background-size: cover;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrap {
+    max-width: 350px;
+    margin: auto;
+    padding: 20px;
+    background: blue;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+form {
+    margin-top: 50px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    border: 1px solid red;
+    font-size: 15px;
+    border-radius: 5px;
+
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+}
+
+input[type=submit] {
+    font-size: 15px;
+    margin-top: 30px;
+    color: #fff;
+    background: red;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid red;
+}
+
+input[type=submit]:hover {
+    background: #fca800;
+}
+
+.openbtn {
+    background: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    float: right;
+}
+
+.openbtn:hover {
+    background: red;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0, 0.7);
+}
+
+.closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.closebtn:hover {
+    color: #fca800;
+}
